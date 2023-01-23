@@ -13,7 +13,7 @@ You can find samples of usage in sample project directory
 
 1. Put arguments : 
 ```
-// put Pair<String,Any> arguments to destination screen route
+// put key value Pair<String,Any> arguments to destination screen route
    FirstScreen {
                 //sending multiply arguments 
                 val dest = Destination.Second
