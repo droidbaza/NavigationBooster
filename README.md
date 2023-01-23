@@ -103,7 +103,7 @@ To use this library in your Android project, just add the following dependency i
 
 2. Add implementation in project build :
 ```
-implementation 'com.github.droidbaza:navigationbooster:1.0.1'
+implementation 'com.github.droidbaza:navigationbooster:1.0.4'
 ```
 
 Or you can copy NavigationUtils.kt file (https://github.com/droidbaza/NavigationBooster/blob/master/navigationbooster/src/main/java/com/droidbaza/navigationbooster/NavigationUtils.kt)
