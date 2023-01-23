@@ -7,11 +7,11 @@ plugins {
 }
 
 android {
-    namespace 'com.droidbaza.navigationbooster'
+    namespace 'com.droidbaza.navigationboostersample'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.droidbaza.navigationbooster"
+        applicationId "com.droidbaza.navigationboostersample"
         minSdk 21
         targetSdk 33
         versionCode 1
