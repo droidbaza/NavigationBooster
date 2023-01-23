@@ -1,4 +1,4 @@
-package com.droidbaza.navigationbooster.screens
+package com.droidbaza.navigationboostersample.screens
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize

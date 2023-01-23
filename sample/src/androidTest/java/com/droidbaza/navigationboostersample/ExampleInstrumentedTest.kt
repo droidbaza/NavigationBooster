@@ -1,4 +1,4 @@
-package com.droidbaza.navigationbooster
+package com.droidbaza.navigationboostersample
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

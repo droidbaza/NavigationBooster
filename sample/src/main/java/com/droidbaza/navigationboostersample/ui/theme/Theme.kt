@@ -1,4 +1,4 @@
-package com.droidbaza.navigationbooster.ui.theme
+package com.droidbaza.navigationboostersample.ui.theme
 
 import android.app.Activity
 import android.os.Build

@@ -1,18 +1,15 @@
-package com.droidbaza.navigationbooster.navigation
+package com.droidbaza.navigationboostersample.navigation
 
-import androidx.compose.foundation.layout.PaddingValues
-import androidx.compose.foundation.layout.padding
 import androidx.compose.runtime.Composable
-import androidx.compose.ui.Modifier
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import com.droidbaza.navigationbooster.NavigationUtils.get
 import com.droidbaza.navigationbooster.NavigationUtils.getNonNull
-import com.droidbaza.navigationbooster.model.ExampleModel
-import com.droidbaza.navigationbooster.screens.FirstScreen
-import com.droidbaza.navigationbooster.screens.FourScreen
-import com.droidbaza.navigationbooster.screens.SecondScreen
-import com.droidbaza.navigationbooster.screens.ThirdScreen
+import com.droidbaza.navigationboostersample.model.ExampleModel
+import com.droidbaza.navigationboostersample.screens.FirstScreen
+import com.droidbaza.navigationboostersample.screens.FourScreen
+import com.droidbaza.navigationboostersample.screens.SecondScreen
+import com.droidbaza.navigationboostersample.screens.ThirdScreen
 import java.util.UUID
 
 @Composable

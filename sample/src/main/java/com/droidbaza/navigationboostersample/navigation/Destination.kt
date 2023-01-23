@@ -1,4 +1,4 @@
-package com.droidbaza.navigationbooster.navigation
+package com.droidbaza.navigationboostersample.navigation
 
 sealed class Destination(
     val description: String = ""

@@ -1,4 +1,4 @@
-package com.droidbaza.navigationbooster.navigation
+package com.droidbaza.navigationboostersample.navigation
 
 import androidx.navigation.NavHostController
 import com.droidbaza.navigationbooster.NavigationUtils.isDestinationExist

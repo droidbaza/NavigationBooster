@@ -1,4 +1,4 @@
-package com.droidbaza.navigationbooster
+package com.droidbaza.navigationboostersample
 
 import android.app.Application
 import dagger.hilt.android.HiltAndroidApp

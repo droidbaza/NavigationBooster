@@ -1,4 +1,4 @@
-package com.droidbaza.navigationbooster
+package com.droidbaza.navigationboostersample
 
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.MaterialTheme
@@ -10,9 +10,9 @@ import androidx.compose.ui.Modifier
 import androidx.navigation.NavHostController
 
 import androidx.navigation.compose.rememberNavController
-import com.droidbaza.navigationbooster.navigation.Destination
-import com.droidbaza.navigationbooster.navigation.NavigationController
-import com.droidbaza.navigationbooster.navigation.NavigationHost
+import com.droidbaza.navigationboostersample.navigation.Destination
+import com.droidbaza.navigationboostersample.navigation.NavigationController
+import com.droidbaza.navigationboostersample.navigation.NavigationHost
 
 @Composable
 fun MainContent() {

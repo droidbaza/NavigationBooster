@@ -1,4 +1,4 @@
-package com.droidbaza.navigationbooster
+package com.droidbaza.navigationboostersample
 
 import org.junit.Test
 

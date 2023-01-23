@@ -1,4 +1,4 @@
-package com.droidbaza.navigationbooster.model
+package com.droidbaza.navigationboostersample.model
 
 import android.os.Parcelable
 import kotlinx.parcelize.Parcelize

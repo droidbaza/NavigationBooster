@@ -1,4 +1,4 @@
-package com.droidbaza.navigationbooster.screens
+package com.droidbaza.navigationboostersample.screens
 
 
 import androidx.compose.foundation.layout.Column
@@ -16,8 +16,8 @@ import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.ViewModel
 import com.droidbaza.navigationbooster.NavigationUtils.getNonNull
-import com.droidbaza.navigationbooster.model.ExampleModel
-import com.droidbaza.navigationbooster.navigation.Destination
+import com.droidbaza.navigationboostersample.model.ExampleModel
+import com.droidbaza.navigationboostersample.navigation.Destination
 import dagger.hilt.android.lifecycle.HiltViewModel
 import javax.inject.Inject
 
