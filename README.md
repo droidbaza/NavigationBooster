@@ -33,7 +33,7 @@ You can find samples of usage in sample project directory
 2. Get arguments from backStackEntry: 
 ```
 
-composable(Destination.Second.route) { 
+composable(Destination.Second.route) { //backStackEntry
             //getting arguments from first screen
             val id = it.getNonNull<String>(Destination.Second.keyId)
             val item = it.get<ExampleModel>(Destination.Second.keyItem)
