@@ -173,7 +173,7 @@ object NavigationUtils {
         if (args != null) {
             if (route != null) {
                 val destinationId = NavDestination.createRoute(route).hashCode()
-                backQueue.find {
+                backQueue.findLast {
                     it.destination.route == route
                 }?.savedStateHandle?.set(args.first, args.second)
                 popBackStack(
@@ -189,8 +189,12 @@ object NavigationUtils {
     }
 
 
-    inline fun <reified T : Any> SavedStateHandle.getNonNull(key: String): T {
+    inline fun <reified T : Any> SavedStateHandle.getNonNull(key: String,defaultValue:T?=null): T {
         val result = get<T>(key)
-        return checkNotNull(result)
+        return checkNotNull(result?:defaultValue)
+    }
+
+    inline fun <reified T : Any> SavedStateHandle.get(key: String,defaultValue:T?=null): T? {
+        return get<T>(key) ?:defaultValue
     }
 }
